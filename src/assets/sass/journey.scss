@@ -1,0 +1,216 @@
+$primary-color: #61D2BB;
+$primary-text-color: #242424;
+$secondary-text-color: #AAAAAA;
+$background-color: #F3F4F5;
+$border-color: #E7E7E7;
+$white: #FFFFFF;
+$other-color-1: #E23036;
+$other-color-2: #92E3A9;
+// box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+
+.main {
+    padding-top: 100px;
+    // display: flex;
+    .journey {
+        margin-left: 105px;
+        width: 620px;
+        color: $secondary-text-color;
+        .tab-wrapper {
+            display: flex;
+            font-size: 20px;
+            position: relative;
+            margin-top: 20px;
+            .tab-item:first-child {
+                margin-right: 30px;
+            }
+            .on {
+                color: $primary-color;
+            }
+            .line {
+                width: 40px;
+                height: 3px;
+                background-color: $primary-color;
+                position: absolute;
+                border-radius: 3px;
+                top: 39px;
+            }
+        }
+        .journey-plan {
+            .date-wrapper {
+                display: flex;
+                margin-top: 30px;
+                .date-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $background-color;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 25px;
+                    margin-right: 20px;
+                    .date {
+                        font-size: 12px;
+                    }
+                    .day {
+                        font-size: 14px;
+                        margin-top: 5px;
+                    }
+                }
+                .on {
+                    background-color: $primary-color;
+                    color: $white;
+                }
+            }
+            .first-day-wrapper {
+                .title-wrapper {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 15px;
+                    margin-bottom: 20px;
+                    i {
+                        font-size: 26px;
+                        margin-right: 5px;
+                        color: $primary-text-color;
+                    }
+                    .title {
+                        font-size: 18px;
+                        margin-right: 40px;
+                        color: $primary-text-color;
+                    }
+                    .data {
+                        font-size: 14px;
+                    }
+                }
+                .first-day {
+                    .attraction-wrapper {
+                        display: flex;
+                        justify-content: space-between;
+                        .attraction {
+                            display: flex;
+                            .number {
+                                font-size: 16px;
+                                color: $white;
+                                background-color: $other-color-1;
+                                width: 25px;
+                                height: 25px;
+                                margin-top: 57.5px;
+                                margin-right: 30px;
+                                border-radius: 100%;
+                                display: flex;
+                                justify-content: center;
+                            }
+                            img {
+                                margin-right: 30px;
+                            }
+                            .information {
+                                i {
+                                    font-size: 20px;
+                                }
+                                span {
+                                    font-size: 14px;
+                                }
+                                .info-item {
+                                    display: flex;
+                                    align-items: center;
+                                    margin-right: 30px;
+                                }
+                                .attraction-name {
+                                    i {
+                                        font-size: 29px;
+                                        margin-right: 5px;
+                                        color: $other-color-2;
+                                    }
+                                    span {
+                                        font-size: 20px;
+                                        color: #242424;
+                                    }
+                                }
+                                .activity-data {
+                                    color: $primary-color;
+                                    display: flex;
+                                    margin-top: 10px;
+                                    .info-item {
+                                        i {
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                }
+                                .about {
+                                    font-size: 14px;
+                                    margin-top: 20px;
+                                    ::placeholder {
+                                        color: $secondary-text-color;
+                                    }
+                                }
+                            }
+                        }
+                        .opinion-wrapper {
+                            .opinion {
+                                display: flex;
+                                .like, .dislike {
+                                    display: flex;
+                                    align-items: center;
+                                    i {
+                                        font-size: 20px;
+                                        margin-right: 5px;
+                                    }
+                                    span {
+                                        font-size: 14px;
+                                    }
+                                }
+                                .like {
+                                    margin-right: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .traffic {
+                        display: flex;
+                        align-items: center;
+                        margin: 15px 0;
+                        margin-left: 55px;
+                        i {
+                            font-size: 20px;
+                        }
+                        .line {
+                            height: 20px;
+                            width: 0;
+                            border-right: 1px solid $secondary-text-color;
+                            margin: 0 20px;
+                        }
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                    .add {
+                        background-color: $background-color;
+                        height: 40px;
+                        border-radius: 25px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        i {
+                            font-size: 20px;
+                            margin-right: 5px;
+                        }
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .map {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        z-index: 0;
+        iframe {
+            border-radius: 25px;
+            width: 1070px;
+            height: 815px;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.main {
+  padding-top: 100px;
+}
+
+.main .budget {
+  margin-left: 105px;
+  width: 620px;
+  color: #AAAAAA;
+}
+
+.main .budget .result-wrapper .per-person {
+  font-size: 14px;
+}
+
+.main .budget .result-wrapper .result {
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.main .budget .result-wrapper .result .result-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .budget .result-wrapper .result .result-text span:nth-child(1) {
+  font-size: 18px;
+  color: #242424;
+}
+
+.main .budget .result-wrapper .result .result-text span:nth-child(1) span {
+  color: #E23036;
+}
+
+.main .budget .result-wrapper .result .result-text span:nth-child(2) {
+  font-size: 14px;
+}
+
+.main .budget .result-wrapper .result .cost {
+  font-size: 20px;
+  color: #61D2BB;
+}
+
+.main .budget .tab-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  margin-top: 20px;
+  color: #AAAAAA;
+}
+
+.main .budget .tab-wrapper .tab-item:first-child {
+  margin-right: 30px;
+}
+
+.main .budget .tab-wrapper .tab-item {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
+.main .budget .tab-wrapper .on {
+  color: #61D2BB;
+}
+
+.main .budget .tab-wrapper .line {
+  width: 80px;
+  height: 3px;
+  background-color: #61D2BB;
+  position: absolute;
+  border-radius: 3px;
+  top: 39px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.main .budget .total-wrapper {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .budget .total-wrapper .total .cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .budget .total-wrapper .total .cost span {
+  font-size: 32px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.main .budget .total-wrapper .total .cost i {
+  font-size: 32px;
+}
+
+.main .budget .total-wrapper .total .public-expense {
+  font-size: 16px;
+}
+
+.main .map {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+}
+
+.main .map iframe {
+  border-radius: 25px;
+  width: 1070px;
+  height: 815px;
+}
+/*# sourceMappingURL=budget.css.map */

@@ -1,0 +1,129 @@
+.item-list {
+  margin-top: 30px;
+}
+
+.item-list .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.item-list .header .title {
+  font-size: 18px;
+  color: #242424;
+}
+
+.item-list .header .build {
+  background-color: #61D2BB;
+  border: none;
+  color: #FFFFFF;
+  width: 93px;
+  height: 30px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-list .header .build span {
+  font-size: 14px;
+}
+
+.item-list .header .build i {
+  font-size: 20px;
+}
+
+.item-list .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-list .items .type {
+  background-color: #92E3A9;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-list .items .type i {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.item-list .items .info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 10px;
+}
+
+.item-list .items .info-wrapper .info .title {
+  color: #242424;
+  font-size: 14px;
+}
+
+.item-list .items .info-wrapper .info .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+}
+
+.item-list .items .info-wrapper .info .user img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.item-list .items .info-wrapper .info .user .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-list .items .info-wrapper .info .user .user-info span {
+  font-size: 12px;
+}
+
+.item-list .items .info-wrapper .cost {
+  font-size: 14px;
+  color: #242424;
+}
+/*# sourceMappingURL=budgetList.css.map */

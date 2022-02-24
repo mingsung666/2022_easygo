@@ -1,0 +1,101 @@
+$primary-color: #61D2BB;
+$primary-text-color: #242424;
+$secondary-text-color: #AAAAAA;
+$background-color: #F3F4F5;
+$border-color: #E7E7E7;
+$white: #FFFFFF;
+$other-color-1: #E23036;
+$other-color-2: #92E3A9;
+// box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+
+.item-list {
+    margin-top: 30px;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .title {
+            font-size: 18px;
+            color: $primary-text-color;
+            margin-top: 4px;
+        }
+    }
+    .member-list {
+        .member {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .title-wrapper { 
+                display: flex;
+                align-items: center;
+                img {
+                    height: 40px;
+                    width: 40px;
+                    margin-right: 10px;
+                }
+                .title {
+                    font-size: 14px;
+                    color: $primary-text-color;
+                }
+            }
+            .cost-wrapper {
+                display: flex;
+                align-items: center;
+                .cost {
+                    font-size: 14px;
+                    color: $primary-color;
+                    margin-right: 5px;
+                }
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+        .items {
+            display: flex;
+            align-items: center;
+            padding: 0 25px 0 45px;
+            .type {
+                background-color: $other-color-2;
+                height: 40px;
+                width: 40px;
+                border-radius: 100%;
+                margin-right: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i {
+                    font-size: 20px;
+                    color: $white;
+                }
+            }
+            .info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-grow: 1;
+                .title {
+                    display: flex;
+                    flex-direction: column;
+                    span:nth-child(1) {
+                        font-size: 14px;
+                        color: $primary-text-color;
+                    }
+                    span:nth-child(2) {
+                        font-size: 12px;
+                    }
+                }
+                .cost {
+                    font-size: 14px;
+                    span {
+                        color: $primary-text-color;
+                        span {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,203 @@
+$primary-color: #61D2BB;
+$primary-text-color: #242424;
+$secondary-text-color: #AAAAAA;
+$background-color: #F3F4F5;
+$border-color: #E7E7E7;
+$white: #FFFFFF;
+
+.wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+    .cover {
+        padding-top: 150px;
+        position: relative;
+        img {
+            width: 100%;
+            max-height: 760px;
+            border-radius: 25px;
+        }
+        .title-wrapper {
+            position: absolute;
+            // top: 20vh;
+            top: 32%;
+            left: 17%;
+            .title, .sub-title {
+                color: $white;
+                // text-shadow: 0px 0px 8px  rgba(0, 0, 0, 0.1);
+                text-shadow: 0px 0px 8px  rgba(0, 0, 0, 0.1);
+            }
+            .title {
+                font-size: 40px;
+            }
+            .sub-title {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .journeys {
+        width: 66%;
+        margin: 0 auto;
+        margin-top: 40px;
+        .my-journey {
+            .header {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                .title {
+                    font-size: 32px;
+                    font-weight: 700;
+                }
+                .build {
+                    background-color: $primary-color;
+                    border: none;
+                    color: $white;
+                    width: 121px;
+                    height: 30px;
+                    border-radius: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    span {
+                        font-size: 14px;
+                    }
+                    i {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .journey-select {
+                display: flex;
+                justify-content: space-between;
+                .img {
+                    width: 270px;
+                    height: 150px;
+                    overflow: hidden;
+                    border-radius: 25px;
+                    &:hover img{
+                    transform: scale(1.1);
+                    }
+                    img {
+                        transition: .5s;
+                    }
+                }
+                .title {
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+                .date {
+                    margin-top: 5px;
+                    font-size: 12px;
+                    color: $secondary-text-color;
+                }
+                .user {
+                    display: flex;
+                    margin-top: 5px;
+                    img {
+                        margin-right: -9px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        .other-journey {
+            margin-top: 60px;
+            .header {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                .title {
+                    font-size: 32px;
+                    font-weight: 700;
+                }
+                .search {
+                    background-color: $background-color;
+                    width: 150px;
+                    height: 40px;
+                    border-radius: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    i {
+                        font-size: 20px;
+                        margin-left: 10px;
+                    }
+                    input {
+                        background-color: $background-color;
+                        border-radius: 25px;
+                        width: 110px;
+                    }
+                }
+            }
+            .journey-select {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .journey-item {
+                    margin-bottom: 60px;
+                    .days,.title, .user {
+                        font-size: 16px;
+                    }
+                    .date, .viewers, .likes {
+                        font-size: 12px;
+                        color: $secondary-text-color;
+                        i {
+                            font-size: 17px;
+                            margin-right: 5px;
+                        }
+                    }
+                    .img {
+                        width: 270px;
+                        height: 150px;
+                        overflow: hidden;
+                        border-radius: 25px;
+                        &:hover img{
+                        transform: scale(1.1);
+                        }
+                        img {
+                            transition: .5s;
+                        }
+                    }
+                    .days {
+                        margin-top: 10px;
+                    }
+                    .title,.user,.date {
+                        margin-top: 5px;
+                    }
+                    .user {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+                    .date {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .number-of-people {
+                            display: flex;
+                            .viewers, .likes {
+                                display: flex;
+                                align-items: center;
+                            }
+                            .viewers {
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        font-size: 16px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

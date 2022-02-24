@@ -1,0 +1,111 @@
+$primary-color: #61D2BB;
+$primary-text-color: #242424;
+$secondary-text-color: #AAAAAA;
+$background-color: #F3F4F5;
+$border-color: #E7E7E7;
+$white: #FFFFFF;
+$other-color-1: #E23036;
+$other-color-2: #92E3A9;
+// box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+// transition: .3s ease;
+
+.main {
+    padding-top: 100px;
+    // display: flex;
+    .budget {
+        margin-left: 105px;
+        width: 620px;
+        color: $secondary-text-color;
+        .result-wrapper {
+            .per-person {
+                font-size: 14px;
+            }
+            .result {
+                border-radius: 25px;
+                box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 80px;
+                padding: 0 20px;
+                margin-top: 10px;
+                .result-text {
+                    display: flex;
+                    flex-direction: column;
+                    span:nth-child(1) {
+                        font-size: 18px;
+                        color: $primary-text-color ;
+                        span {
+                            color: $other-color-1;
+                        }
+                    }
+                    span:nth-child(2) {
+                        font-size: 14px;
+                    }
+                }
+                .cost {
+                    font-size: 20px;
+                    color: $primary-color;
+                }
+            }
+        }
+        .tab-wrapper {
+            display: flex;
+            font-size: 20px;
+            position: relative; 
+            margin-top: 20px;
+            color: $secondary-text-color;
+            .tab-item:first-child {
+                margin-right: 30px;
+            }
+            .tab-item {
+                text-decoration: none;
+                color: $secondary-text-color;
+            }
+            .on {
+                color: $primary-color;
+            }
+            .line {
+                width: 80px;
+                height: 3px;
+                background-color: $primary-color;
+                position: absolute;
+                border-radius: 3px;
+                top: 39px;
+                transition: .3s ease;
+            }
+        }
+        .total-wrapper {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            .total {
+                .cost {
+                    display: flex;
+                    align-items: center;
+                    span {
+                        font-size: 32px;
+                        font-weight: 700;
+                        color: $primary-text-color;
+                    }
+                    i {
+                        font-size: 32px; 
+                    }
+                }
+                .public-expense {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .map {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        iframe {
+            border-radius: 25px;
+            width: 1070px;
+            height: 815px;
+        }
+    }
+}

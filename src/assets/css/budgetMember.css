@@ -1,0 +1,152 @@
+.item-list {
+  margin-top: 30px;
+}
+
+.item-list .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.item-list .header .title {
+  font-size: 18px;
+  color: #242424;
+  margin-top: 4px;
+}
+
+.item-list .member-list .member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item-list .member-list .member .title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-list .member-list .member .title-wrapper img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.item-list .member-list .member .title-wrapper .title {
+  font-size: 14px;
+  color: #242424;
+}
+
+.item-list .member-list .member .cost-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-list .member-list .member .cost-wrapper .cost {
+  font-size: 14px;
+  color: #61D2BB;
+  margin-right: 5px;
+}
+
+.item-list .member-list .member .cost-wrapper i {
+  font-size: 20px;
+}
+
+.item-list .member-list .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 25px 0 45px;
+}
+
+.item-list .member-list .items .type {
+  background-color: #92E3A9;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-list .member-list .items .type i {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.item-list .member-list .items .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.item-list .member-list .items .info .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-list .member-list .items .info .title span:nth-child(1) {
+  font-size: 14px;
+  color: #242424;
+}
+
+.item-list .member-list .items .info .title span:nth-child(2) {
+  font-size: 12px;
+}
+
+.item-list .member-list .items .info .cost {
+  font-size: 14px;
+}
+
+.item-list .member-list .items .info .cost span {
+  color: #242424;
+}
+
+.item-list .member-list .items .info .cost span span {
+  color: #61D2BB;
+}
+/*# sourceMappingURL=budgetMember.css.map */

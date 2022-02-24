@@ -1,0 +1,294 @@
+.main {
+  padding-top: 100px;
+}
+
+.main .journey {
+  margin-left: 105px;
+  width: 620px;
+  color: #AAAAAA;
+}
+
+.main .journey .tab-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.main .journey .tab-wrapper .tab-item:first-child {
+  margin-right: 30px;
+}
+
+.main .journey .tab-wrapper .on {
+  color: #61D2BB;
+}
+
+.main .journey .tab-wrapper .line {
+  width: 40px;
+  height: 3px;
+  background-color: #61D2BB;
+  position: absolute;
+  border-radius: 3px;
+  top: 39px;
+}
+
+.main .journey .journey-plan .date-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.main .journey .journey-plan .date-wrapper .date-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F3F4F5;
+  width: 65px;
+  height: 65px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.main .journey .journey-plan .date-wrapper .date-item .date {
+  font-size: 12px;
+}
+
+.main .journey .journey-plan .date-wrapper .date-item .day {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.main .journey .journey-plan .date-wrapper .on {
+  background-color: #61D2BB;
+  color: #FFFFFF;
+}
+
+.main .journey .journey-plan .first-day-wrapper .title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .title-wrapper i {
+  font-size: 26px;
+  margin-right: 5px;
+  color: #242424;
+}
+
+.main .journey .journey-plan .first-day-wrapper .title-wrapper .title {
+  font-size: 18px;
+  margin-right: 40px;
+  color: #242424;
+}
+
+.main .journey .journey-plan .first-day-wrapper .title-wrapper .data {
+  font-size: 14px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .number {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #E23036;
+  width: 25px;
+  height: 25px;
+  margin-top: 57.5px;
+  margin-right: 30px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction img {
+  margin-right: 30px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information i {
+  font-size: 20px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information span {
+  font-size: 14px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .attraction-name i {
+  font-size: 29px;
+  margin-right: 5px;
+  color: #92E3A9;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .attraction-name span {
+  font-size: 20px;
+  color: #242424;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .activity-data {
+  color: #61D2BB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .activity-data .info-item i {
+  margin-right: 5px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .about {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .about ::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .about :-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .about ::-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .attraction .information .about ::placeholder {
+  color: #AAAAAA;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .like, .main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .dislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .like i, .main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .dislike i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .like span, .main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .dislike span {
+  font-size: 14px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .attraction-wrapper .opinion-wrapper .opinion .like {
+  margin-right: 20px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .traffic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0;
+  margin-left: 55px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .traffic i {
+  font-size: 20px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .traffic .line {
+  height: 20px;
+  width: 0;
+  border-right: 1px solid #AAAAAA;
+  margin: 0 20px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .traffic span {
+  font-size: 14px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .add {
+  background-color: #F3F4F5;
+  height: 40px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .add i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.main .journey .journey-plan .first-day-wrapper .first-day .add span {
+  font-size: 14px;
+}
+
+.main .map {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 0;
+}
+
+.main .map iframe {
+  border-radius: 25px;
+  width: 1070px;
+  height: 815px;
+}
+/*# sourceMappingURL=journey.css.map */
